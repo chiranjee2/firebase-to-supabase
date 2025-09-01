@@ -1,5 +1,5 @@
 // Load environment variables safely
-import { loadSync } from "std/dotenv/mod.ts";
+import { loadSync } from "https://deno.land/std@0.224.0/dotenv/mod.ts";
 
 // Explicitly load from supabase/.env
 loadSync({
