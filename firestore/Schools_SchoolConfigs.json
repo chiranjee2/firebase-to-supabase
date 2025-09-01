@@ -1,0 +1,119 @@
+[
+{
+  "feesReceiptFields": [
+    {
+      "name": "UdiseNum",
+      "isSelected": false
+    }
+  ],
+  "reportCardFields": [
+    {
+      "name": "Address",
+      "isSelected": false
+    },
+    {
+      "name": "Remark",
+      "isSelected": false
+    },
+    {
+      "name": "PromotionRemark",
+      "isSelected": false
+    }
+  ],
+  "bonafideFields": [
+    {
+      "name": "MotherName",
+      "isSelected": true
+    },
+    {
+      "name": "ClassTeacher",
+      "isSelected": false
+    },
+    {
+      "name": "Principal",
+      "isSelected": true
+    },
+    {
+      "name": "Admin",
+      "isSelected": true
+    }
+  ],
+  "leaveInfo": [
+    {
+      "leaveType": "Sick",
+      "balance": 20,
+      "staffSpecificAllocations": {},
+      "defaultStaffIds": [
+        "7o6n587PsARknsPKeBug",
+        "1VFX2zElLdM7HXVUCg3n",
+        "79sqS70hfQcGbMmzkv5j",
+        "PZJfJw2ad6vHLYyXowWe",
+        "hB8hQezOdcVbmF2wGTLL",
+        "9xlcny08N9dqSZ7Ycy3D",
+        "wcA8V7OgTP39KtZv9Udz",
+        "2liUzIOfF7jNmxmOIwzc",
+        "zQRmgZKTapTbcRQSHTYC",
+        "wwS8QUv3kjh6DdfSGbNq",
+        "QcIbyo1qRk4z4uITsy4r",
+        "mSUp0EXurXNDtBDqtDeh",
+        "5UuXkqkW7yAcqiIoPxGe",
+        "fYEWihXMAXCrfLDfqQMl",
+        "BCi5jZvEzSzVnVUJdvPP",
+        "6V4pNcnRmrNWvtYlim6z",
+        "3Rk1O1QRSo2eu62wRGHL",
+        "ikGQk2plKsr8nK2FXgRL",
+        "LRmZGt9MhfgAdJPNGBLh",
+        "dngxWDOxZtpt1YtizOZv",
+        "qbAvQQJzLlt2MRnGoQYk",
+        "XkTDsIDO2ZecfRWub196"
+      ]
+    }
+  ],
+  "idCardConfig": {
+    "secondaryColor": "#FFC107",
+    "primaryColor": "#2196F3",
+    "visibleFields": [
+      {
+        "name": "BloodGroup",
+        "isSelected": false
+      },
+      {
+        "isSelected": false,
+        "name": "StdAddress"
+      },
+      {
+        "isSelected": false,
+        "name": "FatherName"
+      },
+      {
+        "name": "StdContact",
+        "isSelected": false
+      },
+      {
+        "isSelected": false,
+        "name": "MotherName"
+      },
+      {
+        "name": "StudentAddress",
+        "isSelected": false
+      },
+      {
+        "name": "StudentContact",
+        "isSelected": false
+      },
+      {
+        "name": "DateOfBirth",
+        "isSelected": false
+      },
+      {
+        "name": "Scanner",
+        "isSelected": true
+      }
+    ]
+  },
+  "firestore_id": "HUBmPr8N1EGjfepgKy7A",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/SchoolConfigs"
+}
+]

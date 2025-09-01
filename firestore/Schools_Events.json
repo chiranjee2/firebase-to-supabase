@@ -1,0 +1,35 @@
+[
+{
+  "images": [
+    "https://firebasestorage.googleapis.com/v0/b/zeffko-dev.appspot.com/o/users%2F9O3tB8nEpZZ4G7ZLZmi7KQHQdfW2%2Fuploads%2F1750329250543591_0.jpg?alt=media&token=b75ed0c9-b078-4c1e-bd27-ab99497eb013",
+    "https://firebasestorage.googleapis.com/v0/b/zeffko-dev.appspot.com/o/users%2F9O3tB8nEpZZ4G7ZLZmi7KQHQdfW2%2Fuploads%2F1750329250543613_1.jpg?alt=media&token=6cd3918e-034f-49f7-88d4-9a244389dd2c"
+  ],
+  "description": "The monsoon season has officially begun, bringing refreshing rains and cooler days. Let's welcome the showers that nourish the earth and revive the surroundings. Don’t forget your umbrella!",
+  "grades": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11 Arts",
+    "11 Commerce",
+    "12 Arts",
+    "12 Commerce"
+  ],
+  "title": "It's Raining",
+  "googleDrive": "",
+  "eventDate": {
+    "_seconds": 1750293600,
+    "_nanoseconds": 0
+  },
+  "firestore_id": "jNosplbYWTOZggP8eDrL",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/Events"
+}
+]

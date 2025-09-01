@@ -1,0 +1,1244 @@
+[
+{
+  "grade": "10",
+  "section": "A",
+  "lastUpdated": {
+    "_seconds": 1749637839,
+    "_nanoseconds": 32000000
+  },
+  "data": [
+    {
+      "name": "अन्वेष मिलिंद रेवाळे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "siDjG0s3WpF1kMUsf9Sp"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "आयुष नामदेव गिझम",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "Ly1bTTyOnmDeXftTJAKN"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "आर्यन अनिल गुरव",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "j1H6O2vxY8fSrBYdTBFH"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "आर्यन एकनाथ घडशे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "xcbigm55g9HP49bV96ZP"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "आर्यन संदीप सोलकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "urHzLH7wijUmVfSXHoHJ"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "ईश्वरी सचिन गुरव",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "ZOEoo01SzOnWm8lGnGcT"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "ऋतुजा राकेश टेमकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "1G2OdtfTz7DBDd77anWA"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "कोमल संजय भेकरे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "18dDrXWTPH39XIux6XXc"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "जय किशोर आंबेकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "zRQPp1tZItdasqWNn4ZD"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "जान्हवी संतोष आडविलकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "EHYKHwq4ycSsELO8eg0r"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "तनिष नितीन पालशेतकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "QjcGTxkvzZYZTFUGnZPk"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "तेजस मधुकर माने",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "ip4pBDAgAZQFa42DsJht"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "दर्श दिलीप पाते",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "MGSrHShqAFcdlvv7M3Im"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "दिवेश रमेश वाघे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "xRkd3rbyG7gMr3ytU8qC"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "द्रिशा उत्तम मोरे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "BcDAg44mriUFe9CqIonv"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "नैतिक मुकुंद दुबळे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "JZx1KXlUmllc1ehCjDWn"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "परी प्रदीप कांगणे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "A6oZa3k5MH1JsoDlqkrJ"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "पारस सचिन बोरघरे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "ZZ3G1EQxPxY09qc2YV92"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "प्रतिक प्रकाश पारदळे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "FgGhwzF1KHhItoJFT7Pw"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "मंथन मंगेश पवार",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "oLCfESXXtWM5uf6u8PlF"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "यश मंगेश पवार",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "gDPUAuftXcgsHdvpVxSU"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "यश मधुकर खाडे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "emdfKu8kC2TCdpItgq9q"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "राज भरत जाधव",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "rA2hQPCD6zsL0yBPIqgP"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "राजू पप्पू वरपे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "b1aB10bB81aUyKUbtdRM"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "रुद्र राजेश बैकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "KTCwQGkxfp1HLpYN0hng"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "रोनक राजेंद्र घडशे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "nfASTpK4xamihaJwzILu"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "वरुण कालिदास कंधारे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "7WMgSbiEgIcdiCLqDTkd"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "विनीत मारुती शिर्के",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "qJO7p8hgaTlXsuU5O6Qe"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "वेदांत राजू बैकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "DlQEPTcW7GsRPTOFjBMU"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "वेदिका गणपत ठोंबरे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "AnbDS9esYeqy7AxVKnJs"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "शर्वरी अजय मोहिते",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "bG1aK9dcQwIcYhVBju0G"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "शौर्या शैलेश जाधव",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "qqn1Y6pJk9fct7pKuUZz"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्रावणी संदीप तेलप",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "D62jfuys635UUasFI13H"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्रुती चंद्रकांत बोरघरे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "GKSKBzOBAT7nKEvna9Hs"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्रुती रवींद्र अदावडे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "QHxRU7z7z5Ctk2g8EMY7"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "साई रवींद्र आंबेकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "loX84y2erDjcR2K8CnlT"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सागर गोपीनाथ जाधव",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "gWnm4UfW9EIl5aDdUEJF"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सार्थक श्रीधर येलवे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "o56vGI1syOeTXFmIXBRj"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सुयश सुनील गोसावी",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "InCPy77gCZSLQuK2uNd0"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सेजल संदीप घडशे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "jVQnMkEnqXf7m9QxP4Un"
+          ]
+        },
+        "_converter": {}
+      }
+    }
+  ],
+  "firestore_id": "grade_10_section_A",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/StudentMeta"
+},
+{
+  "grade": "12 Arts",
+  "section": "A",
+  "lastUpdated": {
+    "_seconds": 1749637828,
+    "_nanoseconds": 674000000
+  },
+  "data": [
+    {
+      "name": "अभिजित सचिन राठोड",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "x9Id7eX2kCbSFRP0qcH7"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "अविनाश अनंत बालगुडे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "QkCpR5Kzolub3av81PeQ"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "आर्यन संजय पवार",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "Wq9KxxABM1eeEcMmtqVf"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "इशिका प्रदीप बालगुडे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "HAAM9LdRyqaELt5465wR"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "ऋत्विक अमरेश बोरकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "VFsABWMx67Tg5rD8GkDG"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "करण दशरथ खळे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "CW7kYEcnHCluxeDIZ0pK"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "कुणाल कृष्णा बालगुडे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "gICCE4d8RthJFvdDWvhZ"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "दीप नितीन पाटील",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "QqF67yJgmEzUvqOFFBaW"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "नवनाथ अशोक चव्हाण",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "N7mWlPCxmF4debubNUNm"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "राज मंगेश बैकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "YyTctdVJHWJMmekhFcZL"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "विक्रांत जगदीश मोरे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "aO9bfPLPm0w6DAZznA7e"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्रेया प्रसन्न बारे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "mOZXmkwdUrDGEHbdIkKP"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सावली दिपक दुबळे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "QC6ypBe5v7ZyxtbHIQ5h"
+          ]
+        },
+        "_converter": {}
+      }
+    }
+  ],
+  "firestore_id": "grade_12 Arts_section_A",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/StudentMeta"
+},
+{
+  "grade": "12 Commerce",
+  "section": "A",
+  "lastUpdated": {
+    "_seconds": 1749637834,
+    "_nanoseconds": 662000000
+  },
+  "data": [
+    {
+      "name": "अनुज राजेंद्र घडसे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "17plJAeog774GHyN2C5K"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "आकांक्षा सुभाष टेमकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "OaxmjEvanpBUq3jYMEY6"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "आसावरी संतोष शिगवण",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "MNwiOU9kpueN9ynF6yBO"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "चैतन्य प्रदीप खळे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "ZLLj0mPToQylYukfgs7h"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "जान्हवी दिनेश येसवारे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "Mw6XIYcQE3cJGzm2POZz"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "दर्शन दिनकर टेमकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "OkgFZQlwyNeuyIV9Af22"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "निहारिका अनिल उमासरे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "64lyckg6biM1e6RvbW8d"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "नेहा प्रकाश चव्हाण",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "o1drQdK3V6Z7tDWqMd1A"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "परिणीता संदीप शिगवण",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "KI5uAvlFG1lVLCXTsqVu"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "प्रेम संदेश आंबेकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "DJL2QNHcvAqTo6fOzSwx"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "यश योगेश वाडकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "xi08tD7VnyzKDeGZ79xa"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "राज संदीप टेमकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "247HOeC4d8E7VU30IMe2"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "रिद्धी राजेंद्र येसवारे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "bIulM5pNENpJFhjptPQq"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "वृषाली सत्यवान खळे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "C8ZrpTkRQlSLadx6ZwCe"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "वेद वसंत शिगवण",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "4wCMJSn8NM3QV5J3YcWJ"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "शंतनू नितेश करबेले",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "xjL44hLBq5pVF2Y8OSUS"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "शुभम निलेश म्हातले",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "z9fwuGEEeRIT2gA5UVUn"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्रावणी राजेंद्र आदवडे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "PWa1DDwhMBdxpkvUfi0M"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सद्भव तानाजी करबेले",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "tPCpDi86IMsjznTCAaIe"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "समृद्धी संतोष बैकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "nGv2CtfiHkFqnlhfoWyi"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सानिया संदीप तांबे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "hgfKT4mK3jXsxocdSmqt"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सायली संतोष भेकरे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "f01ee5VM8j9uUYJlaotA"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सिद्धी प्रकाश चव्हाण",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "QmEmsbJaTjoobpaFNKrv"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सिद्धेश दत्तात्रय थोरे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "lTxRAtAUOIiEqrC9sQZL"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सोहम प्रशांत पालशेतकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "p1gG0IxEtdQqb1YDO4wv"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "स्नेहल राजेश तांबे",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "B0aOnhqAEFEQdTBojChD"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "हर्ष गोपीचंद मांजरेकर",
+      "stdRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Students",
+            "EN7LiCr5LWhoeBYIlN6K"
+          ]
+        },
+        "_converter": {}
+      }
+    }
+  ],
+  "firestore_id": "grade_12 Commerce_section_A",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/StudentMeta"
+}
+]

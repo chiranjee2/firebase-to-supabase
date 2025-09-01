@@ -1,0 +1,391 @@
+[
+{
+  "data": [
+    {
+      "name": "Ram Sharma",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "dApUJ6YjDOuD2ipqyQuB"
+          ]
+        },
+        "_converter": {}
+      },
+      "designation": "Helper",
+      "userRef": null
+    },
+    {
+      "name": "कैवल्य राजाराम दांडेकर",
+      "designation": "अध्यक्ष",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "7o6n587PsARknsPKeBug"
+          ]
+        },
+        "_converter": {}
+      },
+      "userRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Users",
+            "pSu6ZzehEzdMz3lK3o0mznNAsmE2"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.अजित भूपाल कांबळे",
+      "designation": "सह.शिक्षक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "1VFX2zElLdM7HXVUCg3n"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.अमोल अशोक धयाळकर",
+      "designation": "शिपाई",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "79sqS70hfQcGbMmzkv5j"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.आदित्य लक्ष्मण रढे",
+      "designation": "सह.शिक्षक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "PZJfJw2ad6vHLYyXowWe"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.ऋतिक राकेश टेमकर",
+      "designation": "निदेशक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "hB8hQezOdcVbmF2wGTLL"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.ऋषिकेश महेश लोहार",
+      "designation": "निदेशक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "9xlcny08N9dqSZ7Ycy3D"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.किशोर संपत होगले",
+      "designation": "सह.शिक्षक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "wcA8V7OgTP39KtZv9Udz"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.तुकाराम संदीपान गरंडे",
+      "designation": "सह.शिक्षक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "2liUzIOfF7jNmxmOIwzc"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.दिनेश रामचंद्र नाचणेकर",
+      "designation": "मुख्याध्यापक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "zQRmgZKTapTbcRQSHTYC"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.निखिल रविंद्र पडवळकर",
+      "designation": "क्लार्क",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "wwS8QUv3kjh6DdfSGbNq"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.पांडुरंग महादेव ढेरे",
+      "designation": "मुख्याध्यापक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "QcIbyo1qRk4z4uITsy4r"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.प्रथमेश यशवंत जाडे",
+      "designation": "सह.शिक्षक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "mSUp0EXurXNDtBDqtDeh"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.प्रविण गजानन नांदिस्कर",
+      "designation": "सह.शिक्षक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "5UuXkqkW7yAcqiIoPxGe"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.बाळासाहेब दत्तात्रय कांबळे",
+      "designation": "सह.शिक्षक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "fYEWihXMAXCrfLDfqQMl"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.शैलेश शशिकांत खुळे",
+      "designation": "समन्वयक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "BCi5jZvEzSzVnVUJdvPP"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.सहदेव हरी माळी",
+      "designation": "सह.शिक्षक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "6V4pNcnRmrNWvtYlim6z"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.सुभाष कृष्णा कांबळे",
+      "designation": "शिपाई",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "3Rk1O1QRSo2eu62wRGHL"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "श्री.हनुमंत लक्ष्मण रढे",
+      "designation": "शिपाई",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "ikGQk2plKsr8nK2FXgRL"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सौ.धनश्री कैवल्य दांडेकर",
+      "designation": "सह.शिक्षका",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "LRmZGt9MhfgAdJPNGBLh"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सौ.निलिमा दिपक भावे",
+      "designation": "सह.शिक्षक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "dngxWDOxZtpt1YtizOZv"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सौ.निशा नरेंद्र पांदे",
+      "designation": "निदेशक",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "qbAvQQJzLlt2MRnGoQYk"
+          ]
+        },
+        "_converter": {}
+      }
+    },
+    {
+      "name": "सौ.सिया राकेश झगडे",
+      "designation": "सह.शिक्षका",
+      "staffRef": {
+        "_firestore": {
+          "projectId": "zeffko-dev"
+        },
+        "_path": {
+          "segments": [
+            "Staff",
+            "XkTDsIDO2ZecfRWub196"
+          ]
+        },
+        "_converter": {}
+      }
+    }
+  ],
+  "firestore_id": "d8bnSa8kQtGZWJVbFG0o",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/StaffMeta"
+}
+]

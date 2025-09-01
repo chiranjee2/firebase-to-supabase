@@ -1,0 +1,254 @@
+[
+{
+  "primaryContact": {
+    "phoneNum": "+918237961757",
+    "designation": "अध्यक्ष",
+    "name": "श्री. कैवल्य दांडेकर"
+  },
+  "joinDate": {
+    "_seconds": 1749637790,
+    "_nanoseconds": 772000000
+  },
+  "name": "लोकमान्य टिळक विद्यामंदिर व ज्युनियर कॉलेज चिखलगाव",
+  "parentOrgName": "लोकमान्य पब्लिक चॅरिटेबल ट्रस्ट पुणे",
+  "status": "onboarded",
+  "schoolID": "MC9Rnpx2eO9zpCd1l1tT",
+  "feesInst": [
+    "INS1",
+    "INS2",
+    "INS3",
+    "INS4"
+  ],
+  "currentAcademicYear": "25-26",
+  "academicYears": [
+    "25-26"
+  ],
+  "parentsModules": [
+    "parentsAnnouncements",
+    "studentBehaviour",
+    "studentExams",
+    "studentFees",
+    "parentsLeaderboard",
+    "notificationParentsMobile",
+    "studentRequests",
+    "parentsViewAllEvents"
+  ],
+  "modules": [
+    "ReviewStudentLeave",
+    "LessonPlan",
+    "StudentAttendance",
+    "StaffPayroll",
+    "StaffAttendance",
+    "Library",
+    "Certificates",
+    "FeesManager",
+    "Exam",
+    "BehaviourTracking",
+    "Assistant",
+    "Admission",
+    "ClassObservation",
+    "Announcement",
+    "StaffPayslip",
+    "StaffLeave",
+    "Events",
+    "Inventory",
+    "VisitorLogs",
+    "TransportManagement",
+    "Timetable",
+    "GoalsTracking",
+    "PerformanceInsights",
+    "ReviewLessonPlans",
+    "ReviewStaffLeave",
+    "Settings"
+  ],
+  "updatedAt": {
+    "_seconds": 1750141654,
+    "_nanoseconds": 361000000
+  },
+  "feesReceiptNum": 0,
+  "schoolPaymentQR": "",
+  "secondaryLogo": "",
+  "logo": "",
+  "principalSign": "",
+  "secondaryContact": {
+    "name": "",
+    "phoneNum": "+91",
+    "designation": ""
+  },
+  "isFeesLocked": true,
+  "subjects": [
+    "Marathi",
+    "Hindi",
+    "English",
+    "Mathematics",
+    "Science",
+    "Physics",
+    "Chemistry"
+  ],
+  "staffAttendanceZoneRadius": 20,
+  "address": {
+    "country": "India",
+    "pincode": "411048",
+    "streetName": "",
+    "city": "Kondhwa",
+    "district": "Pune Division",
+    "state": "Maharashtra"
+  },
+  "location": {
+    "_latitude": 18.4809617,
+    "_longitude": 73.901239
+  },
+  "parentOrgId": "dRbIND7e58CED5LFq9Jf",
+  "registrationDetails": [
+    {
+      "grades": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "schoolRegistrationNum": {
+        "schoolName": "लोकमान्य टिळक प्राथमिक विद्यामंदिर चिखलगाव, ता.दापोली, जि.रत्नागिरी,पिन-४१५७१२",
+        "udiseNum": "27320211302",
+        "registrationNum": "व्ही.एल.एस.१०९४/८०८२/प्रा.शि.३ दिनांक २९ ऑक्टोबर १९९४",
+        "affiliationBoard": ""
+      }
+    },
+    {
+      "grades": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "schoolRegistrationNum": {
+        "schoolName": "लोकमान्य टिळक विद्यामंदिर व ज्युनिअर कॉलेज चिखलगाव, ता.दापोली, जि.रत्नागिरी,पिन-४१५७१२",
+        "udiseNum": "27320211303",
+        "registrationNum": "शासन पत्र क्र.एन.एस.एन./१०८४/७०९९ एन.माध्य शिक्षण १, दिनांक १३/७/८४",
+        "affiliationBoard": "SSC"
+      }
+    },
+    {
+      "grades": [
+        "11",
+        "11 Arts",
+        "11 Commerce",
+        "12 Arts",
+        "12 Commerce"
+      ],
+      "schoolRegistrationNum": {
+        "schoolName": "लोकमान्य टिळक विद्यामंदिर व ज्युनिअर कॉलेज चिखलगाव, ता.दापोली, जि.रत्नागिरी,पिन-४१५७१२",
+        "udiseNum": "27320211303",
+        "registrationNum": "उमा-२/कोवि/स्वअशा/पर/१५-१६/१३३१३ -४४८ दि.२०/०६/२०१५",
+        "affiliationBoard": "HSC"
+      }
+    }
+  ],
+  "classes": [
+    "1",
+    "10",
+    "11 Arts",
+    "11 Commerce",
+    "12 Arts",
+    "12 Commerce",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "sections": [
+    {
+      "grade": "2",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "3",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "4",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "5",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "6",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "7",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "8",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "9",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "10",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "11 Arts",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "11 Commerce",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "12 Arts",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "12 Commerce",
+      "sections": [
+        "A"
+      ]
+    },
+    {
+      "grade": "1",
+      "sections": [
+        "A",
+        "B"
+      ]
+    }
+  ],
+  "firestore_id": "MC9Rnpx2eO9zpCd1l1tT"
+}
+]

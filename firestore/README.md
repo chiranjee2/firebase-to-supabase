@@ -31,12 +31,41 @@ The Firestore `collection` is "flattened", and converted to a table with basic c
 `node collections.js`
 
 #### Dump Firestore collection to JSON file
-`node firestore2json.js <collectionName> [<batchSize>] [<limit>]`
+`node firestore2json.js <collectionName> [<batchSize>] [<limit>] [--include-subcollections]`
 
 * `batchSize` (optional) defaults to 1000
 * output filename is `<collectionName>.json`
 * `limit` (optional) defaults to 0 (no limit)
+* `--include-subcollections` (optional) includes all subcollections in the export
 * **note:** `<collectionName>` is just the name of the collection (do not add .json at the end of this on the command line
+
+##### Including Subcollections
+When using the `--include-subcollections` flag, the script will:
+* Recursively discover all subcollections for each document
+* Include subcollection data nested within each parent document under a `subcollections` property
+* Maintain the hierarchical structure of your Firestore data
+* Add unique IDs to all documents and subdocuments
+
+Example output structure with subcollections:
+```json
+[{
+  "firestore_id": "parent_doc_id",
+  "name": "Parent Document",
+  "subcollections": {
+    "orders": [
+      {
+        "firestore_id": "order1",
+        "amount": 100,
+        "subcollections": {
+          "items": [
+            {"firestore_id": "item1", "name": "Product A"}
+          ]
+        }
+      }
+    ]
+  }
+}]
+```
 
 ##### HOOKS: Customizing the JSON
 

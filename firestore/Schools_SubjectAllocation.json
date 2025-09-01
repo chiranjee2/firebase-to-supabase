@@ -1,0 +1,29 @@
+[
+{
+  "subject": "Science",
+  "grade": "2",
+  "section": "A",
+  "firestore_id": "04kSY3CnYIhIxI3Psa1Z",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/SubjectAllocation"
+},
+{
+  "section": "A",
+  "subject": "Mathematics",
+  "grade": "10",
+  "firestore_id": "6vgd99UfUNKIV5Y2QROa",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/SubjectAllocation"
+},
+{
+  "section": "A",
+  "subject": "English",
+  "grade": "10",
+  "firestore_id": "7jPUniCIMWisDfHS3r3s",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/SubjectAllocation"
+}
+]

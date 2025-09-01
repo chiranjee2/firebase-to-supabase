@@ -1,0 +1,46 @@
+[
+{
+  "isbn": "9789381841082",
+  "briefOverview": "",
+  "publisher": "Grapevine India ",
+  "availableBooks": 5,
+  "publishedYear": "2018",
+  "categories": [],
+  "lang": "English ",
+  "issuedBooks": 0,
+  "issuedStaffRef": [],
+  "totalBooks": 5,
+  "issuedStudentRef": [],
+  "authors": [
+    "Swami Vivekanand"
+  ],
+  "coverPhoto": "https://firebasestorage.googleapis.com/v0/b/zeffko-dev.appspot.com/o/users%2F9O3tB8nEpZZ4G7ZLZmi7KQHQdfW2%2Fuploads%2Fbook_cover_1752471725759.jpg?alt=media&token=a9a2cb5b-e25f-4ab7-9d9d-c0f5f4b3e8d4",
+  "title": "Meditation And Its Methods ",
+  "firestore_id": "024lW9pmfU8lTMrilEOD",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/Library"
+},
+{
+  "isbn": "9788175994652",
+  "coverPhoto": "http://books.google.com/books/content?id=AvHZzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "title": "Relativity",
+  "briefOverview": "When you are courting a nice girl an hour seems like a second. When you sit on a red-hot cinder a second seems like an hour. That's relativity.' Dealing with the theory of relativity-- special relativity and general relativity-- and the considerations on the universe as a whole, this book gives an insight into the scientific theory about the relationship between space and time, the theory of gravitation, and the universe. A Nobel laureate, Einstein's research and theories changed the world. First published in 1916, Relativity: The Special and the General Theory is regarded as the most significant work in modern physics. It continues to remain popular and highly influential.\"",
+  "publisher": "Fingerprint! Publishing",
+  "publishedYear": "2017",
+  "categories": [],
+  "lang": "en",
+  "authors": [
+    "Albert Einstein"
+  ],
+  "totalBooks": 4,
+  "issuedStudentRef": [],
+  "availableBooks": 4,
+  "issuedBooks": 0,
+  "issuedStaffRef": [],
+  "firestore_id": "JvpbDdRI4Xg9Ir7Cz7p4",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/Library"
+}
+]

@@ -1,0 +1,24 @@
+[
+{
+  "name": "Admissin",
+  "data": [
+    "Documents verified",
+    "Fees Paid"
+  ],
+  "firestore_id": "44gVpUZhp3mnhM156HXR",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/CheckList"
+},
+{
+  "name": "Admission",
+  "data": [
+    "Document Verification",
+    "Fees Payment"
+  ],
+  "firestore_id": "t6VmFCrE4TEKt1hla1Wi",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/CheckList"
+}
+]

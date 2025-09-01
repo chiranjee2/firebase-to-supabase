@@ -1,0 +1,571 @@
+[
+{
+  "day": "Monday",
+  "tableType": "DailySubstitutionTimetable",
+  "masterDocRef": {
+    "_firestore": {
+      "projectId": "zeffko-dev"
+    },
+    "_path": {
+      "segments": [
+        "Schools",
+        "MC9Rnpx2eO9zpCd1l1tT",
+        "TimeTable",
+        "c6Eua9BOYFQkH6oyuyqT"
+      ]
+    },
+    "_converter": {}
+  },
+  "data": [
+    {
+      "grade": "2",
+      "sectionPeriodData": [
+        {
+          "section": "A",
+          "periodData": [
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750213800,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750215600,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "1",
+              "roomNo": "101",
+              "subject": "English",
+              "staffName": "कैवल्य राजाराम दांडेकर"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750215600,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750217400,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "2",
+              "roomNo": "101",
+              "subject": "Hindi",
+              "staffName": "श्री.अजित भूपाल कांबळे"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750217400,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750219200,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "3",
+              "roomNo": "101",
+              "subject": "Marathi",
+              "staffName": "श्री.अमोल अशोक धयाळकर"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750219200,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750221000,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "4",
+              "roomNo": "101",
+              "subject": "Mathematics",
+              "staffName": "श्री.आदित्य लक्ष्मण रढे"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750221000,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750222800,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "5",
+              "roomNo": "101",
+              "subject": "Marathi",
+              "staffName": "श्री.ऋषिकेश महेश लोहार"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750222800,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750224600,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "6",
+              "roomNo": "101",
+              "subject": "Hindi",
+              "staffName": "श्री.ऋषिकेश महेश लोहार"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750224600,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750226400,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "7",
+              "roomNo": "101",
+              "subject": "English",
+              "staffName": "श्री.किशोर संपत होगले"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750226400,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750228200,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "8",
+              "roomNo": "101",
+              "subject": "Mathematics",
+              "staffName": "श्री.तुकाराम संदीपान गरंडे"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "firestore_id": "8owOhftodLLYLrcKNDXo",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/TimeTable"
+},
+{
+  "day": "Monday",
+  "tableType": "MasterTimetable",
+  "masterDocRef": null,
+  "data": [
+    {
+      "grade": "2",
+      "sectionPeriodData": [
+        {
+          "section": "A",
+          "periodData": [
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750213800,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750215600,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "1",
+              "roomNo": "101",
+              "subject": "English",
+              "staffName": "कैवल्य राजाराम दांडेकर"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750215600,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750217400,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "2",
+              "roomNo": "101",
+              "subject": "Hindi",
+              "staffName": "श्री.अजित भूपाल कांबळे"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750217400,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750219200,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "3",
+              "roomNo": "101",
+              "subject": "Marathi",
+              "staffName": "श्री.अमोल अशोक धयाळकर"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750219200,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750221000,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "4",
+              "roomNo": "101",
+              "subject": "Mathematics",
+              "staffName": "श्री.आदित्य लक्ष्मण रढे"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750221000,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750222800,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "5",
+              "roomNo": "101",
+              "subject": "Marathi",
+              "staffName": "श्री.ऋषिकेश महेश लोहार"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750222800,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750224600,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "6",
+              "roomNo": "101",
+              "subject": "Hindi",
+              "staffName": "श्री.ऋषिकेश महेश लोहार"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750224600,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750226400,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "7",
+              "roomNo": "101",
+              "subject": "English",
+              "staffName": "श्री.किशोर संपत होगले"
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750226400,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750228200,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "8",
+              "roomNo": "101",
+              "subject": "Mathematics",
+              "staffName": "श्री.तुकाराम संदीपान गरंडे"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "firestore_id": "c6Eua9BOYFQkH6oyuyqT",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/TimeTable"
+},
+{
+  "day": "Tuesday",
+  "tableType": "DailySubstitutionTimetable",
+  "masterDocRef": {
+    "_firestore": {
+      "projectId": "zeffko-dev"
+    },
+    "_path": {
+      "segments": [
+        "Schools",
+        "MC9Rnpx2eO9zpCd1l1tT",
+        "TimeTable",
+        "ykwXptDAMXEjMrpokNuK"
+      ]
+    },
+    "_converter": {}
+  },
+  "data": [
+    {
+      "grade": "2",
+      "sectionPeriodData": [
+        {
+          "section": "A",
+          "periodData": [
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750213800,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750215600,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "1",
+              "roomNo": "101",
+              "subject": "Mathematics",
+              "staffName": "श्री.प्रथमेश यशवंत जाडे",
+              "staffRef": {
+                "_firestore": {
+                  "projectId": "zeffko-dev"
+                },
+                "_path": {
+                  "segments": [
+                    "staff",
+                    "mSUp0EXurXNDtBDqtDeh"
+                  ]
+                },
+                "_converter": {}
+              }
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750215600,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750217400,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "2",
+              "roomNo": "101",
+              "subject": "Marathi",
+              "staffName": "श्री.पांडुरंग महादेव ढेरे",
+              "staffRef": {
+                "_firestore": {
+                  "projectId": "zeffko-dev"
+                },
+                "_path": {
+                  "segments": [
+                    "staff",
+                    "QcIbyo1qRk4z4uITsy4r"
+                  ]
+                },
+                "_converter": {}
+              }
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750217400,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750219200,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "3",
+              "roomNo": "101",
+              "subject": "Hindi",
+              "staffName": "श्री.निखिल रविंद्र पडवळकर",
+              "staffRef": {
+                "_firestore": {
+                  "projectId": "zeffko-dev"
+                },
+                "_path": {
+                  "segments": [
+                    "staff",
+                    "wwS8QUv3kjh6DdfSGbNq"
+                  ]
+                },
+                "_converter": {}
+              }
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750219200,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750221000,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "4",
+              "roomNo": "101",
+              "subject": "English",
+              "staffName": "श्री.दिनेश रामचंद्र नाचणेकर",
+              "staffRef": {
+                "_firestore": {
+                  "projectId": "zeffko-dev"
+                },
+                "_path": {
+                  "segments": [
+                    "staff",
+                    "zQRmgZKTapTbcRQSHTYC"
+                  ]
+                },
+                "_converter": {}
+              }
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750221000,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750222800,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "5",
+              "roomNo": "101",
+              "subject": "Hindi",
+              "staffName": "श्री.निखिल रविंद्र पडवळकर",
+              "staffRef": {
+                "_firestore": {
+                  "projectId": "zeffko-dev"
+                },
+                "_path": {
+                  "segments": [
+                    "staff",
+                    "wwS8QUv3kjh6DdfSGbNq"
+                  ]
+                },
+                "_converter": {}
+              }
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750222800,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750224600,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "6",
+              "roomNo": "101",
+              "subject": "Marathi",
+              "staffName": "श्री.पांडुरंग महादेव ढेरे",
+              "staffRef": {
+                "_firestore": {
+                  "projectId": "zeffko-dev"
+                },
+                "_path": {
+                  "segments": [
+                    "staff",
+                    "QcIbyo1qRk4z4uITsy4r"
+                  ]
+                },
+                "_converter": {}
+              }
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750224600,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750226400,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "7",
+              "roomNo": "101",
+              "subject": "Mathematics",
+              "staffName": "श्री.प्रथमेश यशवंत जाडे",
+              "staffRef": {
+                "_firestore": {
+                  "projectId": "zeffko-dev"
+                },
+                "_path": {
+                  "segments": [
+                    "staff",
+                    "mSUp0EXurXNDtBDqtDeh"
+                  ]
+                },
+                "_converter": {}
+              }
+            },
+            {
+              "timeSlot": {
+                "start": {
+                  "_seconds": 1750226400,
+                  "_nanoseconds": 0
+                },
+                "end": {
+                  "_seconds": 1750228200,
+                  "_nanoseconds": 0
+                }
+              },
+              "periodNum": "8",
+              "roomNo": "101",
+              "subject": "English",
+              "staffName": "श्री.दिनेश रामचंद्र नाचणेकर",
+              "staffRef": {
+                "_firestore": {
+                  "projectId": "zeffko-dev"
+                },
+                "_path": {
+                  "segments": [
+                    "staff",
+                    "zQRmgZKTapTbcRQSHTYC"
+                  ]
+                },
+                "_converter": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "firestore_id": "n81HL831tvoPeEWrqmgk",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/TimeTable"
+}
+]

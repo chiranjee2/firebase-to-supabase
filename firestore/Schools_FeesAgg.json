@@ -1,0 +1,35 @@
+[
+{
+  "totalPaidAmt": 0,
+  "totalExemptAmt": 0,
+  "AY": "25-26",
+  "instName": "INS3",
+  "totalInstAmt": 1208500,
+  "firestore_id": "HQh3BhdX0q623Skhp4eL",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/FeesAgg"
+},
+{
+  "totalPaidAmt": 0,
+  "totalExemptAmt": 0,
+  "AY": "25-26",
+  "instName": "INS4",
+  "totalInstAmt": 515500,
+  "firestore_id": "Mxdvot8jQpLQRscWmK4X",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/FeesAgg"
+},
+{
+  "totalPaidAmt": 0,
+  "totalExemptAmt": 0,
+  "AY": "25-26",
+  "instName": "INS2",
+  "totalInstAmt": 1153000,
+  "firestore_id": "e5rIg4ASpKgGbhbYjR8i",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/FeesAgg"
+}
+]

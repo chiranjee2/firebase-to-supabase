@@ -1,0 +1,100 @@
+[
+{
+  "bookRef": {
+    "_firestore": {
+      "projectId": "zeffko-dev"
+    },
+    "_path": {
+      "segments": [
+        "Schools",
+        "MC9Rnpx2eO9zpCd1l1tT",
+        "Library",
+        "JvpbDdRI4Xg9Ir7Cz7p4"
+      ]
+    },
+    "_converter": {}
+  },
+  "transactionType": "staff",
+  "isbn": "9788175994652",
+  "fineAmount": 0,
+  "staffRef": {
+    "_firestore": {
+      "projectId": "zeffko-dev"
+    },
+    "_path": {
+      "segments": [
+        "Staff",
+        "7o6n587PsARknsPKeBug"
+      ]
+    },
+    "_converter": {}
+  },
+  "bookTitle": "Relativity",
+  "issueDate": {
+    "_seconds": 1752172200,
+    "_nanoseconds": 77000000
+  },
+  "expectedReturnDate": {
+    "_seconds": 1752258600,
+    "_nanoseconds": 41000000
+  },
+  "actualReturnDate": {
+    "_seconds": 1752431400,
+    "_nanoseconds": 0
+  },
+  "finePaid": false,
+  "firestore_id": "6wyk7bx3BdPWXV2o6Uz9",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/BookTransactions"
+},
+{
+  "bookRef": {
+    "_firestore": {
+      "projectId": "zeffko-dev"
+    },
+    "_path": {
+      "segments": [
+        "Schools",
+        "MC9Rnpx2eO9zpCd1l1tT",
+        "Library",
+        "JvpbDdRI4Xg9Ir7Cz7p4"
+      ]
+    },
+    "_converter": {}
+  },
+  "transactionType": "student",
+  "isbn": "9788175994652",
+  "fineAmount": 0,
+  "studentRef": {
+    "_firestore": {
+      "projectId": "zeffko-dev"
+    },
+    "_path": {
+      "segments": [
+        "Students",
+        "OxbPzopXlaSsB5G2kyP2"
+      ]
+    },
+    "_converter": {}
+  },
+  "bookTitle": "Relativity",
+  "issueDate": {
+    "_seconds": 1752258600,
+    "_nanoseconds": 630000000
+  },
+  "expectedReturnDate": {
+    "_seconds": 1752345000,
+    "_nanoseconds": 517000000
+  },
+  "actualReturnDate": {
+    "_seconds": 1752431400,
+    "_nanoseconds": 0
+  },
+  "finePaid": false,
+  "firestore_id": "yGQ1ejYZz0Kqy1xbzPWN",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/BookTransactions"
+}
+]

@@ -1,11 +1,52 @@
-firebase-service.json
-users.json
-supabase.ts
+# Dependencies
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Supabase
+.branches/
+.temp/
+supabase.ts
 supabase-keys.ts
 supabase-keys.js
+
+# Firebase credentials (keep sample files)
+firebase-service.json
 supabase-service.json
+
+# Build outputs
+dist/
+build/
+
+# IDE files
+.vscode/settings.json
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
 __*
+
+# Migration files (keep sample files)
+users.json
 fly.toml
 local.env.sh
+
+# SQL dumps
+*.sql
+!seed.sql
 

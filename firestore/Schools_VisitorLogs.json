@@ -1,0 +1,28 @@
+[
+{
+  "name": "Ashish",
+  "phoneNum": "+919834640161",
+  "purpose": "Dropping off student",
+  "checkIn": {
+    "_seconds": 1750311720,
+    "_nanoseconds": 0
+  },
+  "approvalStatus": "Approved",
+  "securityUserRef": {
+    "_firestore": {
+      "projectId": "zeffko-dev"
+    },
+    "_path": {
+      "segments": [
+        "Users",
+        "9O3tB8nEpZZ4G7ZLZmi7KQHQdfW2"
+      ]
+    },
+    "_converter": {}
+  },
+  "firestore_id": "cudvdRyCZ2JpnEbAhNru",
+  "parent_collection": "Schools",
+  "parent_document_id": "MC9Rnpx2eO9zpCd1l1tT",
+  "collection_path": "Schools/MC9Rnpx2eO9zpCd1l1tT/VisitorLogs"
+}
+]

@@ -49,14 +49,37 @@ var db;
 var recordCounters = {};
 var limit = 0;
 if (args.length < 1) {
-    console.log('Usage: firestore2json.ts <collectionName> [<batchSize>] [<limit>]');
+    console.log('Usage: firestore2json.ts <collectionName> [<batchSize>] [<limit>] [--include-subcollections] [--max-depth=3] [--subcollection-limit=100]');
     process.exit(1);
 }
 else {
     db = (0, utils_1.getFirestoreInstance)();
-    main(args[0], args[1] || '1000', args[2] || '0');
+    var includeSubcollections = args.includes('--include-subcollections');
+    
+    // Parse max-depth parameter
+    var maxDepthArg = args.find(function(arg) { return arg.startsWith('--max-depth='); });
+    var maxDepth = maxDepthArg ? parseInt(maxDepthArg.split('=')[1]) : 3;
+    
+    // Parse subcollection-limit parameter
+    var subcollectionLimitArg = args.find(function(arg) { return arg.startsWith('--subcollection-limit='); });
+    var subcollectionLimit = subcollectionLimitArg ? parseInt(subcollectionLimitArg.split('=')[1]) : 100;
+    
+    // Filter out all flags from numeric arguments
+    var numericArgs = args.filter(function(arg) { 
+        return !arg.startsWith('--'); 
+    });
+    
+    console.log('Configuration:');
+    console.log('- Include subcollections:', includeSubcollections);
+    console.log('- Max depth:', maxDepth);
+    console.log('- Subcollection limit:', subcollectionLimit);
+    
+    main(numericArgs[0], numericArgs[1] || '1000', numericArgs[2] || '0', includeSubcollections, maxDepth, subcollectionLimit);
 }
-function main(collectionName, batchSize, limit) {
+function main(collectionName, batchSize, limit, includeSubcollections, maxDepth, subcollectionLimit) {
+    if (includeSubcollections === void 0) { includeSubcollections = false; }
+    if (maxDepth === void 0) { maxDepth = 3; }
+    if (subcollectionLimit === void 0) { subcollectionLimit = 100; }
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
             switch (_a.label) {
@@ -65,7 +88,7 @@ function main(collectionName, batchSize, limit) {
                 //     console.log(`${collectionName}.json already exists, aborting...`);
                 //     process.exit(1);
                 // } else {
-                return [4 /*yield*/, getAll(collectionName, 0, parseInt(batchSize), parseInt(limit))];
+                return [4 /*yield*/, getAll(collectionName, 0, parseInt(batchSize), parseInt(limit), includeSubcollections, maxDepth, subcollectionLimit)];
                 case 1:
                     // if (fs.existsSync(`./${collectionName}.json`)) {
                     //     console.log(`${collectionName}.json already exists, aborting...`);
@@ -77,16 +100,19 @@ function main(collectionName, batchSize, limit) {
         });
     });
 }
-function getAll(collectionName, offset, batchSize, limit) {
+function getAll(collectionName, offset, batchSize, limit, includeSubcollections, maxDepth, subcollectionLimit) {
+    if (includeSubcollections === void 0) { includeSubcollections = false; }
+    if (maxDepth === void 0) { maxDepth = 3; }
+    if (subcollectionLimit === void 0) { subcollectionLimit = 100; }
     return __awaiter(this, void 0, void 0, function () {
         var _a, data, error, key;
         return __generator(this, function (_b) {
             switch (_b.label) {
-                case 0: return [4 /*yield*/, getBatch(collectionName, offset, batchSize, limit)];
+                case 0: return [4 /*yield*/, getBatch(collectionName, offset, batchSize, limit, includeSubcollections, maxDepth, subcollectionLimit)];
                 case 1:
                     _a = _b.sent(), data = _a.data, error = _a.error;
                     if (!(data.length > 0)) return [3 /*break*/, 3];
-                    return [4 /*yield*/, getAll(collectionName, offset + data.length, batchSize, limit)];
+                    return [4 /*yield*/, getAll(collectionName, offset + data.length, batchSize, limit, includeSubcollections, maxDepth, subcollectionLimit)];
                 case 2:
                     _b.sent();
                     return [3 /*break*/, 4];
@@ -101,7 +127,10 @@ function getAll(collectionName, offset, batchSize, limit) {
         });
     });
 }
-function getBatch(collectionName, offset, batchSize, limit) {
+function getBatch(collectionName, offset, batchSize, limit, includeSubcollections, maxDepth, subcollectionLimit) {
+    if (includeSubcollections === void 0) { includeSubcollections = false; }
+    if (maxDepth === void 0) { maxDepth = 3; }
+    if (subcollectionLimit === void 0) { subcollectionLimit = 100; }
     return __awaiter(this, void 0, void 0, function () {
         var data, error;
         return __generator(this, function (_a) {
@@ -109,43 +138,138 @@ function getBatch(collectionName, offset, batchSize, limit) {
                 case 0:
                     data = [];
                     error = null;
-                    if (recordCounters[collectionName] >= limit) {
-                        return [2 /*return*/, { data: data, error: error }];
-                    }
                     if (typeof recordCounters[collectionName] === 'undefined') {
                         recordCounters[collectionName] = 0;
+                    }
+                    if (limit > 0 && recordCounters[collectionName] >= limit) {
+                        return [2 /*return*/, { data: data, error: error }];
                     }
                     if (limit > 0) {
                         batchSize = Math.min(batchSize, limit - recordCounters[collectionName]);
                     }
+                    console.log("Fetching batch: ".concat(batchSize, " documents from ").concat(collectionName));
                     return [4 /*yield*/, db.collection(collectionName)
                             .limit(batchSize)
-                            .offset(offset)
                             .get()
-                            .then(function (snapshot) {
-                            snapshot.forEach(function (fsdoc) {
-                                var doc = fsdoc.data();
-                                if (!doc.firestore_id)
-                                    doc.firestore_id = fsdoc.id;
-                                else if (!doc.firestoreid)
-                                    doc.firestoreid = fsdoc.id;
-                                else if (!doc.original_id)
-                                    doc.original_id = fsdoc.id;
-                                else if (!doc.originalid)
-                                    doc.originalid = fsdoc.id;
-                                console.log('processDocument', typeof processDocument);
-                                if (processDocument) {
-                                    doc = processDocument(collectionName, doc, recordCounters, utils_1.writeRecord);
+                            .then(function (snapshot) { return __awaiter(void 0, void 0, void 0, function () {
+                            var _i, _a, fsdoc, doc, _b;
+                            return __generator(this, function (_c) {
+                                switch (_c.label) {
+                                    case 0:
+                                        console.log("Found ".concat(snapshot.docs.length, " documents"));
+                                        _i = 0, _a = snapshot.docs;
+                                        _c.label = 1;
+                                    case 1:
+                                        if (!(_i < _a.length)) return [3 /*break*/, 4];
+                                        fsdoc = _a[_i];
+                                        doc = fsdoc.data();
+                                        if (!doc.firestore_id)
+                                            doc.firestore_id = fsdoc.id;
+                                        else if (!doc.firestoreid)
+                                            doc.firestoreid = fsdoc.id;
+                                        else if (!doc.original_id)
+                                            doc.original_id = fsdoc.id;
+                                        else if (!doc.originalid)
+                                            doc.originalid = fsdoc.id;
+                                        if (!includeSubcollections) return [3 /*break*/, 3];
+                                        // Export subcollections as separate JSON files instead of nesting
+                                        return [4 /*yield*/, exportSubcollectionsAsSeparateFiles(fsdoc.ref, collectionName, fsdoc.id, maxDepth, 0, subcollectionLimit)];
+                                    case 2:
+                                        _c.sent();
+                                        _c.label = 3;
+                                    case 3:
+                                        if (processDocument) {
+                                            doc = processDocument(collectionName, doc, recordCounters, utils_1.writeRecord);
+                                        }
+                                        (0, utils_1.writeRecord)(collectionName, doc, recordCounters);
+                                        data.push(doc);
+                                        _i++;
+                                        return [3 /*break*/, 1];
+                                    case 4: return [2 /*return*/];
                                 }
-                                (0, utils_1.writeRecord)(collectionName, doc, recordCounters);
-                                data.push(doc);
                             });
-                        })["catch"](function (err) {
+                        }); })["catch"](function (err) {
                             error = err;
                         })];
                 case 1:
                     _a.sent();
                     return [2 /*return*/, { data: data, error: error }];
+            }
+        });
+    });
+}
+// Export subcollections as separate JSON files (separate tables)
+function exportSubcollectionsAsSeparateFiles(docRef, parentCollectionName, parentDocId, maxDepth, currentDepth, subcollectionLimit) {
+    if (maxDepth === void 0) { maxDepth = 3; }
+    if (currentDepth === void 0) { currentDepth = 0; }
+    if (subcollectionLimit === void 0) { subcollectionLimit = 100; }
+    return __awaiter(this, void 0, void 0, function () {
+        var collections, _i, collections_1, collection, subcollectionName, tablePrefix, tableName, snapshot, _a, _b, doc, docData, error_1;
+        return __generator(this, function (_c) {
+            switch (_c.label) {
+                case 0:
+                    // Prevent infinite recursion by limiting depth
+                    if (currentDepth >= maxDepth) {
+                        console.log("Max depth (".concat(maxDepth, ") reached, stopping recursion"));
+                        return [2 /*return*/];
+                    }
+                    _c.label = 1;
+                case 1:
+                    _c.trys.push([1, 8, , 9]);
+                    return [4 /*yield*/, docRef.listCollections()];
+                case 2:
+                    collections = _c.sent();
+                    // If no subcollections, return quickly
+                    if (collections.length === 0) {
+                        return [2 /*return*/];
+                    }
+                    console.log("Found ".concat(collections.length, " subcollections at depth ").concat(currentDepth + 1));
+                    _i = 0, collections_1 = collections;
+                    _c.label = 3;
+                case 3:
+                    if (!(_i < collections_1.length)) return [3 /*break*/, 7];
+                    collection = collections_1[_i];
+                    subcollectionName = collection.id;
+                    tablePrefix = currentDepth === 0 ? parentCollectionName : parentCollectionName + "_" + subcollectionName.replace(/[^a-zA-Z0-9]/g, '_');
+                    tableName = currentDepth === 0 ? parentCollectionName + "_" + subcollectionName : tablePrefix;
+                    console.log("Processing subcollection: ".concat(subcollectionName, " -> ").concat(tableName, ".json"));
+                    return [4 /*yield*/, collection.limit(subcollectionLimit).get()];
+                case 4:
+                    snapshot = _c.sent();
+                    console.log("Found ".concat(snapshot.docs.length, " documents in ").concat(subcollectionName));
+                    // Process each document in this subcollection and write to separate file
+                    for (_a = 0, _b = snapshot.docs; _a < _b.length; _a++) {
+                        doc = _b[_a];
+                        docData = doc.data();
+                        // Add document ID
+                        if (!docData.firestore_id)
+                            docData.firestore_id = doc.id;
+                        // Add reference to parent document
+                        docData.parent_collection = parentCollectionName;
+                        docData.parent_document_id = parentDocId;
+                        // Add collection path for deeper nesting
+                        docData.collection_path = currentDepth === 0 ? 
+                            parentCollectionName + "/" + parentDocId + "/" + subcollectionName :
+                            docData.collection_path + "/" + subcollectionName;
+                        // Write this document to the subcollection's JSON file
+                        (0, utils_1.writeRecord)(tableName, docData, recordCounters);
+                        // Recursively process nested subcollections
+                        if (currentDepth + 1 < maxDepth) {
+                            exportSubcollectionsAsSeparateFiles(doc.ref, tableName, doc.id, maxDepth, currentDepth + 1, subcollectionLimit);
+                        }
+                    }
+                    _c.label = 5;
+                case 5:
+                    _i++;
+                    return [3 /*break*/, 3];
+                case 6: return [3 /*break*/, 9];
+                case 7:
+                    return [3 /*break*/, 6];
+                case 8:
+                    error_1 = _c.sent();
+                    console.error('Error processing subcollections:', error_1.message || error_1);
+                    return [3 /*break*/, 9];
+                case 9: return [2 /*return*/];
             }
         });
     });
